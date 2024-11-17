@@ -1,0 +1,15 @@
+<!-- res/drawable/circle_shape.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when the button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#FF0000"/>
+        </shape>
+    </item>
+    <!-- Default state -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+</selector>

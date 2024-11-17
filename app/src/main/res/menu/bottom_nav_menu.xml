@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Connect Four Menu Item -->
+    <item
+        android:id="@+id/navigation_connect_four"
+        android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+        android:title="Connect Four" />
+
+    <!-- Options Menu Item -->
+    <item
+        android:id="@+id/navigation_options"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Options" />
+
+</menu>
